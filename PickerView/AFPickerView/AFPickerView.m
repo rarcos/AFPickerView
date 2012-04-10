@@ -133,7 +133,7 @@
     _rowFont = [UIFont boldSystemFontOfSize:24.0];
     _rowIndent = 30.0;
     
-    rowHeight = 39.0;
+    rowHeight = 20.0;
     
     currentRow = 0;
     rowsCount = 0;
@@ -291,6 +291,7 @@
                 label.backgroundColor = [UIColor clearColor];
                 label.font = self.rowFont;
                 label.textColor = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.75];
+                label.textAlignment = UITextAlignmentCenter;
             }
             
             [self configureView:label atIndex:index];
